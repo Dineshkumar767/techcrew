@@ -1,0 +1,57 @@
+.nvbar {
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    padding: 10px;
+}
+
+.backgroundpic {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(./whatsaap\ bank.png);
+    width: 100%;
+    background-size: cover;
+
+
+}
+
+.content {
+    margin: 5%;
+    padding: 3%;
+}
+
+span {
+    color: blue;
+}
+
+.hamburger-container {
+    display: none;
+}
+
+
+@media screen and (max-width:992px) {
+    .nvbar {
+
+        display: none;
+    }
+
+    .hamburger-container {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    ul li a:hover {
+        background-color: green;
+    }
+
+    .dropdown-toggle:hover {
+        background-color: #f1f1f1;
+        /* replace with the desired hover color */
+    }
+
+    .dropdown-item:hover {
+        background-color: #f1f1f1;
+        /* replace with the desired hover color */
+    }
+}

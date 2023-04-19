@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM Card and Debit Card</title>
+
+    <link rel="stylesheet" href="atm-card.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        @media(min-width:992px) {
+            .title {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                font-weight: bold;
+                color: red;
+            }
+
+        }
+
+        @media(max-width:992px) {
+            .title {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                font-weight: bold;
+                color: blue;
+            }
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <center>
+        <div class="title">
+            <h1 style="border-bottom: 3px solid black;width: 780px;padding: 4px;">ATM Card and Debit Card</h1>
+        </div>
+    </center>
+    <div class="nvbar">
+        <a href="index.html" class="btn btn-outline-danger active">HOME</a>
+        <a href="ABOUTPAGE.html" class="btn btn-outline-danger">ABOUT</a>
+        <a href="contact.html" class="btn btn-outline-danger">CONTACT</a>
+        <input type="search" placeholder="Search" class="text-danger  outline-danger" id="searchbar">
+        <button style="color: red;" onclick="search()">submit</button>
+        <a href="signin.html" class="btn btn-outline-danger float-end">SIGN IN</a>
+    </div>
+    <div class="hamburger-container">
+        <!-- <button class="hamburger"><img src="./hamburger.png" alt="hamburger logo"></button> -->
+
+        <li class="nav-item dropdown" style="list-style-type: none;">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"><img
+                    src="hamburger.png" alt=""></a>
+            <ul class="dropdown-menu" style="list-style: none;">
+                <li><a class="dropdown-item" href="index.html">HOME</a></li>
+                <li><a class="dropdown-item" href="ABOUTPAGE.html">ABOUT</a></li>
+                <li><a class="dropdown-item" href="contact.html">CONTACT</a></li>
+                <li><a class="dropdown-item" href="signin.html">SIGN IN</a></li>
+            </ul>
+        </li>
+    </div>
+    <hr>
+
+
+    <div class="container-benefit">
+        <div class="backgroundpic">
+            <h1 style="color: aliceblue; padding: 20px;">
+                What is the Difference between ATM Card and Debit Card
+
+            </h1>
+            <div style="width: 48%; padding: 20px;">
+                <p style="color: aliceblue;">Often, we tend to mistake an ATM card and Debit Card to be the same. This
+                    is mainly because ATM and Debit Cards are quite similar in terms of their functions and use.
+                    However, what we must know is that they are two different cards. An ATM card is a PIN-based card,
+                    used to transact in ATMs only. While a Debit Card, on the other hand, is a much more
+                    multi-functional card. They are accepted for transacting at a lot of places like stores,
+                    restaurants, online in addition to ATM.<br>
+                    Even though most banks these days issue you an ATM cum Debit Card, there are a few differentiating
+                    factors between them.
+                    <br>
+                    Financial institutions, today, as per the usage the requirements of the customers, provide a
+                    plethora of options in terms of financial tools like debit or credit cards. However, to use these
+                    facilities in a judicious and efficient manner, it is necessary to understand the features of and
+                    differences between ATM cards, debit and credit cards.
+                </p>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="maintopic">
+        <h1 align="center"><span> ' </span>Difference between ATM Card and Debit Card<span> ' </span></h1>
+        <div class="content">
+            <h2>What is ATM CARD ?</h2>
+            <p>These are primarily issued by a financial institution (incl. banks). An ATM card, as the name suggests,
+                can be used at an Automated Teller Machine (ATM) to withdraw money from an account linked to the card.
+                Earlier, ATM cards could be used only for “on-us” transactions. But, with the development of
+                interconnected ATM networks, these cards can be used over a wider network of ATMs.</p>
+            <h2>What is CREDIT CARD?</h2>
+            <p>Credit cards allow you to borrow money for your transactions, to be repaid later. The money is borrowed
+                from a respective credit card provider and must be repaid within a specified period. Interest is charged
+                on the outstanding amount after the billing date. All the credit cards are linked to networks like VISA,
+                MasterCard, Maestro, etc.</p>
+            <h2>What is DEBIT CARD?</h2>
+            <p>Just like ATM cards, are linked to specific saving or checking accounts. These cards can be used to make
+                payments from the existing funds of your linked account. Like a credit card, they allow you to make a
+                purchase at any POS or online outlets and have the added security of a PIN. Debit cards are also linked
+                to networks like VISA, MasterCard, Maestro, RuPay, etc.</p>
+            <h2>ATM CARDS VS. CREDIT CARDS OR DEBIT CARDS</h2>
+            <p>An ATM card allows a customer only to withdraw money from an ATM, whereas a credit or debit card provides
+                you with the facility of online payments and POS transactions. A debit or credit card holder can
+                directly shop through his card eliminating the need to carry cash around.</p>
+            <h2>DEBIT CARDS VS. CREDIT CARDS</h2>
+            <p>The advantage of a credit card is that you can make urgent purchases or emergency payments on credit and
+                repay the money later. Debit cards, on the other hand, use money already present in the linked account
+                which helps you to manage your finances better and spend within your income limits.<br>
+                With the advent of inter-connected ATM network and technological advancement of the banking sector,
+                Indian banks have started issuing single multi-purpose cards like, "ATM-cum-debit cards" and
+                "Debit-Credit cards." The ATM-cum-debit cards have become prevalent and can be used at ATMs to withdraw
+                money and for POS and online transactions.<br>As they are linked to a bank account, the money gets
+                debited from your existing funds. Debit-credit cards provide the dual facility of debiting the funds
+                from your linked account and a certain overdraft facility for emergencies
+            </p>
+            <h2>Key Differences</h2>
+            <p>
+            <ul>
+                <li>Debit and credit cards allow cardholders to withdraw cash and make purchases.</li>
+                <li>Credit cards are debt instruments but debit cards are not.</li>
+                <li>Debit card users can only spend the money available in their bank account unless they have overdraft
+                    protection.</li>
+                <li>A credit card is linked to a line of credit offered by the company that issues the card.</li>
+                <li>Credit cards help build credit history while debit cards don't.</li>
+            </ul>
+            </p>
+
+        </div>
+    </div>
+    <!-- footer section start -->
+    <footer class="footer-container">
+        <div class="footer-center wrapper">
+            <div class="footer-links-main">
+                <ul class="footer-links">
+                    <li><a href="bankingsector.html" class="footer-link active">home</a></li>
+                    <li><a href="./About.html" class="footer-link">about</a></li>
+                    <li><a href="signin.html" class="footer-link">signin</a></li>
+                    <li><a href="./contact.html" class="footer-link">contact</a></li>
+                </ul>
+            </div>
+            <div class="social-links-main">
+                <ul class="social-links">
+                    <li class="social-link"><a href="#"><img src="instagram.png" alt="instagram"></a></li>
+                    <li class="social-link"><a href="#"><img src="github.png" alt="github"></a></li>
+                    <li class="social-link"><a href="#"><img src="linkedin.png" alt="linkedin"></a></li>
+                    <li class="social-link"><a href="#"><img src="youtube.png" alt="youtube"></a></li>
+                </ul>
+            </div>
+            <div class="footer-copy-right">
+                <p>&copy; copyright<span class="copyright-date"></span>, made by Techcrew Team</p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end -->
+
+
+
+</body>
+
+</html>

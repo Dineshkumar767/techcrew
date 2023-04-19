@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Evolution Of Technology</title>
+
+  <link rel="stylesheet" href="bankingsector.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="home.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="searchbar.js"></script>
+
+
+
+</head>
+
+<body>
+
+  <div class="title">
+    <h1 style="border-bottom: 3px solid black;width: 640px;padding: 4px;">THE EVOLUTION OF TECHNOLOGY</h1>
+  </div>
+  <hr>
+  <div class="nvbar">
+    <a href="index.html" class="btn btn-outline-danger active">HOME</a>
+    <a href="ABOUTPAGE.html" class="btn btn-outline-danger">ABOUT</a>
+    <a href="contact.html" class="btn btn-outline-danger">CONTACT</a>
+    <input type="search" placeholder="Search" class="text-danger  outline-danger" id="searchbar">
+    <button style="color: red;" onclick="search()">submit</button>
+    <a href="signin.html" class="btn btn-outline-danger float-end">SIGN IN</a>
+  </div>
+  <div class="hamburger-container">
+    <!-- <button class="hamburger"><img src="./hamburger.png" alt="hamburger logo"></button> -->
+
+    <li class="nav-item dropdown" style="list-style-type: none;">
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"><img src="hamburger.png"
+          alt=""></a>
+      <ul class="dropdown-menu" style="list-style: none;">
+        <li><a class="dropdown-item" href="index.html">HOME</a></li>
+        <li><a class="dropdown-item" href="ABOUTPAGE.html">ABOUT</a></li>
+        <li><a class="dropdown-item" href="contact.html">CONTACT</a></li>
+        <li><a class="dropdown-item" href="signin.html">SIGN IN</a></li>
+      </ul>
+    </li>
+  </div>
+
+
+  <hr>
+
+
+  <center>
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="8"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="9"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="digital-market.jpg" class="d-block w-90" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="tag">What is The Benefit of Digital Banking?</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="AdobeStock-2.jpg" class="d-block w-90" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="tag">Digital Payments: The Right Channel to Opt for!</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="atm-card.jpg" class="d-block w-90" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="tag">What is the Difference between ATM Card and Debit Card</h5>
+          </div>
+        </div>
+
+
+        <div class="carousel-item">
+          <img src="blog-img.jpg" class="d-block w-90" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="tag">When and When Not to Use Credit Card for Bill Payment?</h5>
+          </div>
+        </div>
+
+
+        <div class="carousel-item">
+          <img src="whatsaap bank.png" class="d-block w-90" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="tag">Enjoy Credit Card Services On the Go with WhatsApp Banking</h5>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="digital.jpg" class="d-block w-90" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="tag">Benefits of Digitally Transacting through <br>
+              a Savings Account/Current Account</h5>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="financialsafety.jpeg" class="d-block w-90" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="tag">How to ensure financial safety while using credit card?</h5>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="Merchant-Services-provided-by-Banks.jpg" class="d-block w-90" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="tag">Understanding the Merchant Services provided by Banks</h5>
+          </div>
+        </div>
+
+
+        <div class="carousel-item">
+          <img src="progress.jpg" class="d-block w-90" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="tag">Features & Benefits of the <br>
+              Progress Savings Account</h5>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="types-of-card.jpg" class="d-block w-90" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="tag">Comparing the Types of Debit Cards</h5>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </center>
+  <hr>
+  <center>
+    <div class="heading-2">
+      <h1 style="border-bottom: 3px solid gray;width: 1500px;padding: 4px;">How Financial Technology Has Evolved in 50
+        Years Since We Landed on the Moon</h1>
+    </div>
+  </center>
+  <hr>
+  <div class="heading">
+
+    <img src="corporate-salary.jpg" alt="bank image" width="800px" style="margin-right: 25px;">
+    <p>
+      In 1969 surgeons implanted the first artificial heart, Dorothy Hodgkin determined the structure of insulin,
+      the beginning of Bluetooth transmissions was born, and Neil Armstrong landed on the moon. It’s been 50
+      years since then — 50 years of technological advancements and cultural development. And the financial
+      industry is no different. There have been a lot of advancements in the banking sector in the last 50 years
+      or so, thanks to technology. Let’s take a look back through a brief history of banking technology to see just
+      how far we’ve come.
+    </p>
+  </div>
+  <hr>
+  <div>
+    <center>
+      <div class="cards-heading">
+
+        <h1 style="border-bottom: 3px solid gray;width: 700px;padding: 4px;">Technology in Banking Timeline</h1>
+
+      </div>
+    </center>
+  </div>
+  <hr>
+
+  <div class="cards">
+    <div class="card" style="width:300px; height: 400px;">
+      <img class="card-img-top" src="intel 4004.jpeg" alt="Card image" style="width:100%; height:350px;">
+      <div class="card-body" class="heading1">
+        <h4 class="card-title">INTEL 4004 1971</h4>
+        <p class="card-text">The first general purpose
+          programmable processor on
+          the market—a “building block”
+          for engineers.</p>
+        <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+      </div>
+    </div>
+
+    <div class="card" style="width:300px; height: 400px;">
+      <img class="card-img-top" src="E-payment.jpg" alt="Card image" style="width:100%; height:350px;">
+      <div class="card-body">
+        <h4 class="card-title" class="heading1">FIRST E-PAYMENT 1973</h4>
+        <p class="card-text">The international SWIFT payment
+          network was established and
+          domestic payment systems were
+          developed around the world by banks
+          working with governments.
+        </p>
+        <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+      </div>
+    </div>
+
+    <div class="card" style="width:300px; height: 400px;">
+      <img class="card-img-top" src="first apple pc.jpg" alt="Card image" style="width:100%; height:350px;">
+      <div class="card-body">
+        <h4 class="card-title" class="heading1">FIRST APPLE PC 1977</h4>
+        <p class="card-text">The Apple II was introduced
+          and it ushered in a new age
+          of personal computing.
+        </p>
+        <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+      </div>
+    </div>
+
+
+    <div class="card" style="width:300px; height: 400px;">
+      <img class="card-img-top" src="MacGUI.jpg" alt="Card image" style="width:100%; height:350px;">
+      <div class="card-body">
+        <h4 class="card-title" class="heading1">APPLE GUI 1984</h4>
+        <p class="card-text">The Macintosh revolutionized
+          the windows and mouse format
+          pioneered by Xerox by introducing
+          a graphical user interface.
+
+        </p>
+        <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+      </div>
+    </div>
+
+
+    <div class="card" style="width:300px; height: 400px;">
+      <img class="card-img-top" src="microsoft.jpg" alt="Card image" style="width:100%; height:350px;">
+      <div class="card-body">
+        <h4 class="card-title" class="heading1">WINDOWS OS 1985</h4>
+        <p class="card-text">Microsoft subsequently creates
+          a GUI and ships it around
+          the world under the name
+          “Windows.”
+
+        </p>
+        <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+      </div>
+    </div>
+
+
+    <div class="card" style="width:300px; height: 400px;">
+      <img class="card-img-top" src="first samsung tablet.jpg" alt="Card image" style="width:100%; height:350px;">
+      <div class="card-body">
+        <h4 class="card-title" class="heading1">FIRST SAMSUNG BANKING TABLET 1989</h4>
+        <p class="card-text">The first commercially
+          available computer tablet.
+          Bank employees were able to
+          move “around and beyond the
+          branch”. The teller could now
+          serve customers needs “from a
+          mobile tablet as opposed to a
+          tethered device.”
+
+        </p>
+        <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+      </div>
+    </div>
+
+    <div class="card" style="width:300px; height: 400px;">
+      <img class="card-img-top" src="wild wide web.jpeg" alt="Card image" style="width:100%; height:350px;">
+      <div class="card-body">
+        <h4 class="card-title" class="heading1">WORLD WIDE WEB 1990</h4>
+        <p class="card-text">In Geneva, Switzerland, Tim
+          Berners-Lee develops a new
+          technique for distributing
+          information on the internet,
+          eventually called the World
+          Wide Web.
+
+        </p>
+        <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+      </div>
+    </div>
+
+
+
+    <div class="card" style="width:300px; height: 400px;">
+      <img class="card-img-top" src="p2p transfer.jpg" alt="Card image" style="width:100%; height:350px;">
+      <div class="card-body">
+        <h4 class="card-title" class="heading1">FIRST P2P TRANSFER 1998</h4>
+        <p class="card-text">Paypal was the 1st P2P
+          money transfer service
+          introduced to consumers.
+          P2P services have made it
+          more convenient for people
+          to pay for services or earn
+          money as online sellers.
+
+        </p>
+        <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+      </div>
+    </div>
+
+
+    <div class="card" style="width:300px; height: 400px;">
+      <img class="card-img-top" src="mobile banking.jpg" alt="Card image" style="width:100%; height:350px;">
+      <div class="card-body">
+        <h4 class="card-title" class="heading1">MOBILE BANKING 1999</h4>
+        <p class="card-text">Some European banks began
+          implementing mobile banking
+          processes as early as 1999
+          through the use of SMS text
+          messaging, although most
+          US banks to begin implement
+          mobile banking until the advent
+
+        </p>
+        <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+      </div>
+    </div>
+
+    <div class="card" style="width:300px; height: 400px;">
+      <img class="card-img-top" src="internet.png" alt="Card image" style="width:100%; height:350px;">
+      <div class="card-body">
+        <h4 class="card-title" class="heading1">BROADBAND INTERNET 2000</h4>
+        <p class="card-text">The first general purpose
+          programmable processor
+          on the market—a “building
+          block” for engineers.
+
+        </p>
+        <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+      </div>
+    </div>
+
+    <div class="card" style="width:300px; height: 400px;">
+      <img class="card-img-top" src="RemoteDepositCapture_600x314e.jpg" alt="Card image"
+        style="width:100%; height:350px;">
+      <div class="card-body">
+        <h4 class="card-title" class="heading1">REMOTE DEPOSIT CAPTURE 2004</h4>
+        <p class="card-text">“The Check 21 Act of 2004”
+          was passed. The Act made it so
+          that “a check” recipient could
+          make a digital copy of a check
+          electronically.” The move to
+          remote check deposit capture
+          cut down the waiting period for
+          check proccessing, making it
+          possible for people to pay for
+          bills and other purchases in real
+          time.
+
+        </p>
+        <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+      </div>
+    </div>
+
+
+    <div class="card" style="width:300px; height: 400px;">
+      <img class="card-img-top" src="iphone.jpg-org" alt="Card image" style="width:100%; height:350px;">
+      <div class="card-body">
+        <h4 class="card-title" class="heading1"> I PHONE 2007</h4>
+        <p class="card-text">The iPhone began the
+          smartphone revolution. The
+          friction between digital tech and
+          digital tech use was virtually
+          erased by the app store.
+
+        </p>
+        <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+      </div>
+    </div>
+
+
+    <div class="card" style="width:300px; height: 400px;">
+      <img class="card-img-top" src="google wallet.webp" alt="Card image" style="width:100%; height:350px;">
+      <div class="card-body">
+        <h4 class="card-title" class="heading1">GOOGLE WALLET 2011</h4>
+        <p class="card-text">Introduced as a mobile
+          payment technology that “is
+          vying to replace credit cards.”
+          For the first time people could
+          use their phones directly for
+          purchases.
+
+        </p>
+        <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+      </div>
+    </div>
+
+    <div class="card" style="width:300px; height: 400px;">
+      <img class="card-img-top" src="evm chips.jpeg" alt="Card image" style="width:100%; height:350px;">
+      <div class="card-body">
+        <h4 class="card-title" class="heading1">EMV CHIPS 2015</h4>
+        <p class="card-text">FiNet’s Brent says EMV chips
+          make cards far more secure
+          becuase the information
+          transmitted is encrypted and
+          tokenized. Additional security
+          is critical as payments become
+          more integrated, he notes.
+
+        </p>
+        <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+      </div>
+    </div>
+
+    <div class="card" style="width:300px; height: 400px;">
+      <img class="card-img-top" src="quntam.avif" alt="Card image" style="width:100%; height:350px;">
+      <div class="card-body">
+        <h4 class="card-title" class="heading1">QUANTUM COMPUTING 2019</h4>
+        <p class="card-text">Quantum computing is the
+          use of subatomic Qubits for
+          computing as opposed to the
+          standard bits. This leads to
+          exponentially faster processing
+          speeds. IBM has hit a milestone
+          in Quantum computing. It’s
+          a latest system has doubled
+          the quantum volume of its
+          predecessor. If this doubling
+          continues annually, we could
+          see practical “quantum
+          advantage within the next
+          decade.
+
+        </p>
+        <!-- <a href="#" class="btn btn-primary">See Profile</a> -->
+      </div>
+    </div>
+
+
+  </div>
+
+  <hr>
+  <center>
+    <div class="main-heading">
+      <h1 style="border-bottom: 3px solid gray;width: 750px;padding: 4px;">The Introduction
+        of the Credit Card</h1>
+    </div>
+  </center>
+  <hr>
+  <div class="heading">
+
+    <img src="credit card.png" alt="bank image" width="800px" style="margin-right: 25px;">
+    <p>
+      The first most notable technological
+      advancement in the financial industry was the
+      advent of the credit card in 1950. “Diners Club
+      introduced the first universal credit card, a
+      portable payment solution that could be used at
+      numerous member establishments.” <br><br><br>
+      The introduction of the credit card fundamentally
+      changed how consumers thought about their
+      finances. They no longer had to carry or spend cash
+      for every purchase. They now had the freedom to
+      borrow against a line of credit that they could pay
+      off at a future date. In general, credit cards allow
+      consumers to make bigger purchases, without
+      having to dip too deep into their savings.
+    </p>
+  </div>
+
+
+
+  <hr>
+  <center>
+    <div class="main-heading">
+      <h1 style="border-bottom: 3px solid gray;width: 750px;padding: 4px;">ATMs, Computers,
+        and Much More</h1>
+    </div>
+  </center>
+  <hr>
+  <div class="heading">
+
+    <img src="ATMs.jpg" alt="bank image" width="800px" style="margin-right: 25px;">
+    <p>
+      Fastforward,a little over a decade later to the 1960s, when the world was introduced
+      to the first ATM. “A Scottish inventor named John
+      Shepherd-Barron [thought] if vending machines
+      could dispense chocolate bars, why couldn’t
+      they dispense cash?”2
+      Barclays Bank fell in love
+      with the idea and the first ATM was created. With
+      the invention of the ATM, customers were no
+      longer constrained by bank hours and locations
+      when they wanted to access their money. <br><br>
+      The use of computers in banking was also
+      introduced in the 1960s when the then-Bank of New
+      South Wales announced it would purchase its first ever computer for the sum of £1 million. That’s about
+      $26 million in today’s dollars.<br><br>
+      <b>The use of computers sparked
+        the first digital [banking]
+        revolution.</b><br><br>
+      The computer centrali[zed] the bank’s trading
+      accounts by replacing the machine accounting
+      operations used in each individual branch.” The
+      hope was that a centralized place for accounts would
+      streamline processes and allow financial institutions
+      to place a stronger focus on customer service.
+      The use of computers sparked the first digital
+      revolution. “Banks started to invest heavily
+      in computer technology to automate manual
+      processing. By the 1970s, the first electronic
+      payment systems for both international and domestic
+      transactions were developed. The international
+      SWIFT payment network was established in 1973 and
+      domestic payment systems were developed around
+      the world by banks working with governments.”
+
+    </p>
+  </div>
+
+  <hr>
+  <center>
+    <div class="main-heading">
+      <h1 style="border-bottom: 3px solid gray;width: 800px;padding: 4px;">The Convenience
+        of Online Banking</h1>
+    </div>
+  </center>
+  <hr>
+  <div class="heading">
+    <img src="online_banking_wire_transfer.jpg" alt="" width="800px" style="margin-right: 25px;">
+    <p>
+      In the 1980s, with digital technology well
+      underway, the “term ‘online’ which referred
+      to the use of a terminal, keyboard and TV to
+      access the banking system using a phone line”
+      gained popularity. With online banking came
+      the benefits of lower transaction costs, easier
+      integration of services, and more targeted
+      marketing capabilities. <br><br>
+      As online banking gained momentum, the
+      first commercially available computer tablet,
+      manufactured by Samsung in 1989, brought a new
+      wave of convenience in retail banking. For the first
+      time bank employees were allowed to “move within
+      and even beyond the branch. Instead of waiting in
+      line for the teller to become available, the teller might
+      come to the door, greet a customer, sit on the couch
+      with them and serve their needs from a mobile tablet
+      as opposed to a tethered device.<br><br>
+      Late in the 1990s, consumers were introduced to paypal,
+      a P2P money service, enabling wireless transfers. The
+      creation of PayPal spawned a myriad of like businesses format
+      Venmo and Popmoney to
+      Zelle.These services made it more convenient for people to pay for
+      services wirelessly.
+    </p>
+  </div>
+
+  <hr>
+  <center>
+    <div class="main-heading">
+      <h1 style="border-bottom: 3px solid gray;width: 580px;padding: 4px;">The Mobile Banking Revolution</h1>
+    </div>
+  </center>
+  <hr>
+  <div class="heading">
+    <img src="mobile para.jpg" alt="" width="800px" style="margin-right: 25px;">
+    <p>
+      The early 2000s, with the advent of wireless
+      technology and the wide adoption of
+      smartphones, brought the next major shift in
+      the financial industry—mobile banking. Mobile
+      banking made it possible for people to manage
+      their financial lives from virtually anywhere
+      and at any time. Now people could pay bills,
+      check balances, transfer funds, or add new
+      accounts all from their mobile devices. For the
+      first time, the branch experience started to
+      become secondary, as people flocked to the
+      convenience and easy of their mobile devices. <br>
+      In 2004, as mobile banking continued to grow in
+      popularity, “the Check Clearing for the 21st Century
+      Act” 3 was passed. The Act made it so “a check
+      recipient could make a digital copy of a check and
+      then process that check electronically.” The move to
+      remote check deposit capture reduced the waiting
+      period for check processing, adding convenience
+      and making it possible for people to pay for bills and
+      purchases faster than ever before. <br>
+      About seven years later in 2011, Google introduced
+      Google Wallet, a mobile payment technology meant
+      to rival credit cards. For the first time people could
+      use their phones directly for purchases. This opened
+      up a whole new level of freedom, taking technology
+      in the financial industry to a whole new level. Similar
+      to Google Wallet, in 2014, Apple launched Apple Pay.<br>
+      Heading the charge in 2015, “Bank of America...
+      introduced fingerprint authentication and Touch ID,”
+
+      making it easier and safer for people to log into
+      their mobile banking apps. In the same year, the EMV
+      chip technology became a standard among card
+      issuers. The “EMV chips make cards far more secure
+      because the information transmitted is encrypted
+      and tokenized.”
+      And it adds more security, which is
+      “critical as payments become more integrated.”
+    </p>
+  </div>
+
+  <hr>
+  <center>
+    <div class="main-heading">
+      <h1 style="border-bottom: 3px solid gray;width: 400px;padding: 4px;">A New Era in Banking</h1>
+    </div>
+  </center>
+  <hr>
+  <div class="heading">
+    <img src="new era banking.jpg" alt="" width="800px" style="margin-right: 25px;">
+    <p>
+      Today we’re seeing another major shift in the
+      financial industry, largely brought about by
+      consumers’ expectations for convenience,
+      relevance, and ease. As technology continues
+      to advance in the banking industry, it’s
+      fundamentally changing the banking model.
+      Consumers expect hyper-personalized and
+      relevant communication from all of their online
+      and offline interactions. And they don’t want
+      to initiate the conversation. They want their
+      financial institutions to keep them in the know
+      about their finances and notify them if something
+      needs their attention. In essence, they’re looking
+      for a self-guided financial wellness solution.<br>
+      But what exactly does self-guided financial wellness
+      mean? In short, it means proactive financial advice
+      at the right moment and time—helping people stay
+      on top of all of their financial matters in real-time.
+      People no longer simply want to trust their financial
+      institution with their money. They want to trust that
+      their financial institution understands them and has
+      their best interest in mind when it comes to financial
+      matters.
+      <br>
+      Luckily, financial institutions are well positioned to
+      take advantage of everything technology has to
+      offer. It’s now easier than ever before for financial
+      institutions to access and act on their wealth of data
+      to help customers make well-informed financial
+      decisions. Whether it’s mobile apps enabling
+      budgeting, notifications encouraging better spending
+      habits, or ads informing customers on where to go
+      for a better mortgage loan—there’s a lot that financial
+      institutions can do to help their customers.
+      <br><br>
+      <b style="background-color: aqua;">People no longer simply want to trust
+        their financial institution with their
+        money. They want to trust that their
+        financial institution understands them
+        and has their best interest in mind
+        when it comes to financial matters.
+      </b>
+    </p>
+  </div><br>
+  <p>
+    And the best part is that financial institutions can do
+    all this without having to fundamentally change their
+    customers’ behavior towards finances. At MX, we’re
+    ushering a new age of personal financial wellness
+    with tools that do all the heavy lifting — from
+    proactive notifications to guided financial advice, so
+    everyone has access to the financial information
+    they need to lead happier and healthier financial
+    lives.</p>
+  <hr>
+
+  <center>
+    <div class="main-heading">
+      <h1 style="border-bottom: 3px solid gray;width: 580px;padding: 4px;"> click here to view more details</h1>
+    </div>
+  </Center>
+  <center>
+    <div class="more-details">
+
+
+      <a href="digitalbanking.html">What is The Benefit of Digital Banking?</a><br>
+
+      <a href="digital-payment.html">Digital Payments: The Right Channel to Opt for! </a><br>
+
+      <a href="atm-card.html">What is the Difference between ATM Card and Debit Card</a><br>
+
+      <a href="Credit-Card-for-BillPayment.html">When and When Not to Use Credit Card for Bill Payment?</a><br>
+
+      <a href="Whatsappbank.html">Enjoy Credit Card Services On the Go with WhatsApp Banking</a><br>
+
+      <a href="Benefits of Digitally Transacting through a Savings Account&Current Account.html">Benefits of Digitally
+        Transacting through
+        a Savings Account/Current Account</a><br>
+
+      <a href="How to ensure financial safety while using credit card.html">How to ensure financial safety while using
+        credit card?</a><br>
+
+      <a href="Understanding the Merchant Services provided by Banks.html">Understanding the Merchant Services provided
+        by Banks</a><br>
+
+      <a href="Features & Benefits of the Progress Savings Account.html">Features & Benefits of the
+        Progress Savings Account</a><br>
+      <a href="Comparing the Types of Debit Cards.html">Comparing the Types of Debit Cards</a>
+
+    </div>
+  </center>
+  <br>
+
+  <br>
+  <br>
+  <!-- footer section start -->
+  <footer class="footer-container">
+    <div class="footer-center wrapper">
+      <div class="footer-links-main">
+        <ul class="footer-links">
+          <li><a href="bankingsector.html" class="footer-link active">home</a></li>
+          <li><a href="ABOUTPAGE.html" class="footer-link">about</a></li>
+          <li><a href="signin.html" class="footer-link">signin</a></li>
+          <li><a href="contact.html" class="footer-link">contact</a></li>
+        </ul>
+      </div>
+      <div class="social-links-main">
+        <ul class="social-links">
+          <li class="social-link"><a href="https://instagram.com/dinesh_aj767?igshid=ZDdkNTZiNTM= "><img
+                src="instagram.png" alt="instagram"></a></li>
+          <li class="social-link"><a href="https://github.com/Dineshkumar767"><img src="github.png" alt="github"></a>
+          </li>
+          <li class="social-link"><a href="https://in.linkedin.com/in/dineshkumar-ajmeera-800991271"><img
+                src="linkedin.png" alt="linkedin"></a></li>
+          <li class="social-link"><a href="https://youtube.com/@dineshkumarajmeera"><img src="youtube.png"
+                alt="youtube"></a></li>
+        </ul>
+      </div>
+      <div class="footer-copy-right">
+        <p>&copy; copyright<span class="copyright-date"></span>, made by DINESH KUMAR AJMEERA</p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section end -->
+
+</body>
+
+</html>
